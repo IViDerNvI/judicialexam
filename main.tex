@@ -1,0 +1,63 @@
+\documentclass{article}
+
+%%%%%%%%%%%%%%%%%
+%
+% Packages here
+%
+%%%%%%%%%%%%%%%%%
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{tcolorbox}
+\usepackage{fontspec}
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
+\usepackage{graphicx}
+\usepackage{svg}
+
+
+%%%%%%%%%%%%%%%%%%%
+%
+% Fonts here
+%
+%%%%%%%%%%%%%%%%%%%
+
+\setCJKmainfont{simsun.ttc}[Path=fonts/, BoldFont=simhei.ttf, ItalicFont=simkai.ttf]
+\setCJKmonofont{simfang.ttf}[Path=fonts/]
+
+
+%%%%%%%%%%%%%%%%%%%%
+%
+% Title here
+%
+%%%%%%%%%%%%%%%%%%%%
+\title{司法考试复习重点}
+\author{IViDerNvI}
+\date{\today}
+
+
+%%%%%%%%%%%%%%%%%%%%
+%
+% Document here
+%
+%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\input{sections/行政法/行政法.tex}
+\newpage
+\input{sections/民法/民法.tex}
+\newpage
+\input{sections/刑法/刑法.tex}
+\newpage
+\input{sections/商经法与社会法/商经法与社会法.tex}
+\newpage
+\input{sections/诉讼法/诉讼法.tex}
+
+\end{document}
